@@ -22,6 +22,10 @@ prose:
   siteurl: 'http://smy20011.github.io'
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "tags"
         field:
           element: "multiselect"
