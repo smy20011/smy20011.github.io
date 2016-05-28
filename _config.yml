@@ -1,0 +1,19 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Siyuan Blog
+tagline:             'Write Some Code'
+description:         'A Place To Log My Ideas'
+url:                 http://mzpz.me
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Siyuan Ma
+  url:               https://mzpz.me
+  email:             smy20011@gmail.com
