@@ -16,3 +16,19 @@ author:
   name:              Siyuan Ma
   url:               https://mzpz.me
   email:             smy20011@gmail.com
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://mzpz.me'
+  metadata:
+    _posts:
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Compiler"
+              value: "compiler"
+            - name: "Android"
+              value: "android"
