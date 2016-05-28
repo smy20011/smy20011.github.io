@@ -7,7 +7,7 @@ permalink:           pretty
 title:               Siyuan Blog
 tagline:             'Write Some Code'
 description:         'A Place To Log My Ideas'
-url:                 http://mzpz.me
+url:                 'http://mzpz.me'
 baseurl:             ''
 paginate:            5
 
@@ -19,7 +19,7 @@ author:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://mzpz.me'
+  siteurl: 'http://smy20011.github.io'
   metadata:
     _posts:
       - name: "tags"
