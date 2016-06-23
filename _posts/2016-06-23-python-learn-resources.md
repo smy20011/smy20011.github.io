@@ -11,7 +11,9 @@ tags: ''
 
 Python这门语言生于1989年，在设计之初，这门语言就着重强调简单，清晰。在Python编程语言中，有一个重要的格言“用一种方法，最好是只有一种方法来做一件事”。如果你遵循了python的开发守则，那么最好的python开发者和初学者写出来的代码看起来也是一样的清晰。相较于诘屈聱牙的C／C++／Java，Python是最适合初学者的语言。普通人大概花一周时间可以掌握Python的基本语法，剩下的时间就是把玩各种库了。
 
-## 学习Python的历程
+## 学习Python的资料
+
+
 
 ## 其他资料
 http://www.wklken.me/posts/2013/08/31/python-extra-coding-intro.html
