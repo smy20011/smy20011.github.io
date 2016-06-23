@@ -1,6 +1,6 @@
 ---
 published: true
-title: 给新手的Python入门资源
+title: Python Resource For Beginners
 categories: programming
 layout: post
 ---
