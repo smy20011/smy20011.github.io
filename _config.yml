@@ -19,7 +19,7 @@ author:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://smy20011.github.io'
+  siteurl: 'http://mzpz.me'
   metadata:
     _posts:
       - name: "title"
