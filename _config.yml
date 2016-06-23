@@ -8,7 +8,7 @@ title:               Siyuan Blog
 tagline:             'Write Some Code'
 description:         'A Place To Log My Ideas'
 url:                 'http://mzpz.me'
-baseurl:             ''
+baseurl:             'http://mzpz.me'
 paginate:            5
 
 # About/contact
