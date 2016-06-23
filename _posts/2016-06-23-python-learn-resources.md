@@ -13,4 +13,5 @@ Python这门语言生于1989年，在设计之初，这门语言就着重强调�
 
 ## 学习Python的历程
 
-
+## 其他资料
+http://www.wklken.me/posts/2013/08/31/python-extra-coding-intro.html
