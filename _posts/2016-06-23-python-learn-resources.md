@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Python Resource For Beginners
 categories: programming
 layout: post
