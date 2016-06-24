@@ -3,7 +3,6 @@ published: true
 title: Python Resource For Beginners
 categories: programming
 layout: post
-tags: ''
 ---
 ## 为什么要学Python
 
@@ -13,7 +12,24 @@ Python这门语言生于1989年，在设计之初，这门语言就着重强调�
 
 ## 学习Python的资料
 
+如果你不知道什么是IDE，什么是运行时环境，不知道如何下载python。那么最好的学习工具是在线课程。我推荐下面几个
 
+* 计蒜客 https://www.jisuanke.com/
+* CodeAcademy https://www.codecademy.com/
 
-## 其他资料
-http://www.wklken.me/posts/2013/08/31/python-extra-coding-intro.html
+这两个网站的好处是即开即用，不用初学者操心编辑器设置，环境设置的问题，纯粹的进行语言学习。他们课程大概分7-8个小节，每一节都会有相应的提示，做对了会进入下一小节。就跟玩rpg一样，一个boss一个boss的打，打完最终boss你就出师了。
+
+当然，学完了这两个并不说明你真正掌握了python，不过你可以用python做一些日常工作了。比如用python做一个下载爬漫画的软件。如果你觉得想深入了解学习python，推荐上MIT的[编程课程](http://open.163.com/special/opencourse/bianchengdaolun.html)，有人做了一个[学习计划](http://study.163.com/plan/planIntroduction.htm?id=1222079&from=study&edusave=1)，可以参考一下。
+这门课程会让你深入的理解计算机科学与编程语言，很多科班出身的程序员如果没有认真学习的话理解不一定有你多。俗话说，磨刀不误砍柴工，一个好的工具能让你事半功倍。我推荐
+
+* [Pycharm](https://www.jetbrains.com/pycharm/download) 最舒服的python ide，初学者用这个就好了。听见有人给你推荐vim请打一顿，推荐emacs的请直接扔海里谢谢。
+* [Repl.it](https://repl.it/) 在写程序的时候，有时候会试一下程序怎么写，这时候这种repl网站就很有用了。当然你可以打开python的idle进行实验。
+* [Stackoverflow](http://stackoverflow.com/) 在这里你能找到一切编程问题的答案，出现问题的时候把错误在这个网站上搜索就能找到结果了，国内的社区是[Segment Fault](https://segmentfault.com/)
+
+mit公开课之后，你就像打通了任督二脉一样，天下任何事情都难不倒你了。现在如果你想做：
+
+* **网页开发** 看[Flask](http://flask.pocoo.org/)
+* **大数据** 可以参考这个[知乎帖子](https://www.zhihu.com/question/36254617)
+* **办公自动化** 推荐学习[xlrd](https://github.com/python-excel/xlrd)这个库，能帮你减少很多痛苦。如果要更深入学习，推荐看一看微软的VBA，这门语言是和office套件紧密连接的。如果你有python基础，学习VBA几乎不费精力。
+
+这个帖子会持续更新，如果大家有问题的话可以回帖留言。
