@@ -3,6 +3,11 @@ layout: post
 published: false
 title: Windows Tools In Python
 ---
-## A New Post
+# Pycharm
+# Cmder
+# Sublime
+# IPython
+# Git & Source Tree
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+  1. A bite of git
+  2. Use git in normal life.
