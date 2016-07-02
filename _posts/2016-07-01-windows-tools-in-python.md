@@ -39,12 +39,13 @@ Pycharm有社区版和商业版之分，一般我们就用社区版就可以了�
 * [Getting Started with Visual Studio Code](https://johnpapa.net/getting-started-with-visual-studio-code/)
 * [微软官方的教程](https://code.visualstudio.com/Docs)
 
-# IPython
-https://itacey.gitbooks.io/learning_ipython/content/
+# Git
 
-# Git & Source Tree
+在写文档的时候，你有没有过因为不小心覆盖丢掉了几周的成果的经历，有没有想找出几周之前的版本看一看的经历。写程序的时候，几乎所有人都会遇到类似的事情：你想实验一个功能的不同写法，你想比对几周之前的程序和现在比有什么长进，更重要的是，你不希望你的程序因为系统故障而让你几个月的努力小时（活生生的例子在[这里]()）Git以及其他的版本控制工具是解决这种问题的良方。
 
-  1. A bite of git
-  2. Use git in normal life.
+要说Git的身世真的不一般，它的老爸是Linus Torvalds。全世界80%的手机系统，70%以上的服务器，以及你现在在刷的s1，都是基于他的Linux系统。他在写Linux的时候使用的版本控制软件叫做BitKeeper，由于Linux内核的一个开发者逆向了这个工具，BitKeeper的开发商决定收回给Linus的免费使用权。Linus一怒之下在10天之内写出了git（不愧是大牛）。经过10年的发展，目前绝大部分的开源软件都是用git作为版本控制软件。著名的~~同性交友~~开源社区Github也得名于git。
+
+Git做的事情很简单，就是给你的代码一个快照，称为一个commit。当你提交代码之后，你的代码就会变为Git系统里的一个快照，你可以通过一个命令回到过去，也可以从过去跳到现在。
+
 
 http://www.codingpy.com/
