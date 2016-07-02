@@ -20,11 +20,11 @@ Pycharm有社区版和商业版之分，一般我们就用社区版就可以了�
 
 使用Python的时候，避免不了和命令行打交道。如果你在windows平台下，CMD的使用体验会让你痛不欲生，幸运的是，有一些windows程序员开发出了一些十分漂亮的命令行，让你的开发过程轻松愉快。[CMDer](http://cmder.net/)是基于ConEmu的一款软件，它为你提供了相当漂亮的初始设置，并且你能够对很多部分进行微调。支持多窗口，左右分屏等等功能。简单来说，如果你想要你的命令行从这样：
 
-![CMD.PNG]({{site.baseurl}}/imgs/CMD.PNG)
+![CMD.PNG](http://ww1.sinaimg.cn/large/670a5e4fgw1f5fhmiw4w0j20kn0fqab9.jpg)
 
 变成这样
 
-![Cmder.PNG]({{site.baseurl}}/imgs/Cmder.PNG)
+![Cmder.PNG](http://ww4.sinaimg.cn/large/670a5e4fgw1f5fhmu6kehj20ow0gs0tw.jpg)
 
 那么Cmder是你的绝佳选择，相关教程在[这里](http://bg.biedalian.com/2014/09/11/cmder.html)
 
