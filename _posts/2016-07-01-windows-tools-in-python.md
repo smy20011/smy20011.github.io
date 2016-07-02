@@ -11,7 +11,7 @@ title: Windows Tools In Python
 方面浸淫了十几年。能够帮你自动的提示和补全Python的函数，变量名。帮你自动查出不好的写法，并
 提出更改意见。
 
-![]({{site.baseurl}}/https://www.jetbrains.com/pycharm/img/screenshots/simpleLook@2x.jpg)
+![](https://www.jetbrains.com/pycharm/img/screenshots/simpleLook@2x.jpg)
 
 Pycharm有社区版和商业版之分，一般我们就用社区版就可以了，商业版对有特殊开发需求的人有用，对于
 初学者来说，用社区版第一是支持正版，第二免去了安装时的很多麻烦。如果你第一次使用这个软件，肯定
