@@ -52,7 +52,7 @@ function SmallCaps(s)
 end
 
 function Strikeout(s)
-  return '[del]' .. s .. '[/del]'
+  return '[s]' .. s .. '[/s]'
 end
 
 function Link(s, src, tit)
