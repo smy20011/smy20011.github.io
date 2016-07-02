@@ -96,7 +96,7 @@ end
 
 -- lev is an integer, the header level.
 function Header(lev, s, attr)
-  return "[h]" .. s .. "[/h]"
+  return "[b]" .. s .. "[/b]"
 end
 
 function BlockQuote(s)
