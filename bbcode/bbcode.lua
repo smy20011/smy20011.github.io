@@ -127,6 +127,10 @@ function OrderedList(items)
   return "[list=1]\n" .. table.concat(buffer, "\n") .. "\n[/list]"
 end
 
+function CaptionedImage(src, tit, caption, attr)
+   return "[img]" .. src .. "[/img]"
+end
+
 -- Revisit association list STackValue instance.
 function DefinitionList(items)
   local buffer = {}
