@@ -2,6 +2,7 @@
 layout: post
 published: false
 title: Windows Tools In Python
+tags: ''
 ---
 上一次我们介绍了学习python的一些资料，这次我们来介绍一些工具，能让你的学习过程更加轻松愉快。
 
