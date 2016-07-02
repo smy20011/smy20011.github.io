@@ -51,11 +51,11 @@ Git做的事情很简单，就是给你的代码一个快照，称为一个commi
 
 除此之外，Git能让你对任何时候的快照进行分支，并让你能够尝试不同选择带来的不同结果。Git的特性使得开启一个分支几乎不用任何代价，你可以从容的从一个~~世界线~~分支跳转到另一个分支，尝试不同代码方式带来的结果，当你觉得这个分支的结果让你满意的时候，你可以把一个分支合并到另一个分支里面，得到一个让你满意的分支。基于Git开发流程就是开启branch，合并branch的过程。
 
-![](http://ww1.sinaimg.cn/large/670a5e4fgw1f5fgpgl12hj20wj18gawj.jpg)
+![branch](http://ww1.sinaimg.cn/large/670a5e4fgw1f5fgpgl12hj20wj18gawj.jpg)
 
 ~~一位不称职的开发者开发的分支~~上错图片了
 
-![](http://i.stack.imgur.com/F00b8.png)
+![actual branch](http://i.stack.imgur.com/F00b8.png)
 
 基于分支的git开发流程。
 
