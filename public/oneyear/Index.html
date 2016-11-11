@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>LaoPo Love ShaMao</title>
+<link rel="stylesheet" type="text/css" href="highlight.css">
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="TypeWriter.js"></script>
+<script type="text/javascript">
+	function wrap(str) {
+		return "<span class=\"digit\">" + str + "</span>"
+	}
+	function timeCount (item, year, month, day) {
+		var startTime = new Date();
+		startTime.setFullYear(year, month - 1, day);
+		startTime.setHours(8);
+		startTime.setMinutes(0);
+		startTime.setSeconds(0);
+		startTime.setMilliseconds(0);
+		var duration = (new Date).getTime() - startTime.getTime();
+		duration = Math.floor(duration / 1000);
+		var day  = Math.floor(duration / 3600 / 24);
+		duration = duration - day * 3600 * 24;
+		var hour = Math.floor(duration / 3600);
+		duration = duration - hour * 3600;
+		var minute = Math.floor(duration / 60);
+		duration = duration - minute * 60;
+		var second = duration;
+		item.html(wrap(day) + " Days " + wrap(hour) + " Hours " + wrap(minute) + " Minutes " + wrap(second) + " Seconds");
+	}
+	$(document).ready(function() {
+		$("pre.hl").contents().filter(function(){ return this.nodeType == 3; }).wrap("<span/>");
+		$("pre.hl").contents().tw();
+		setInterval(function() {
+			timeCount($("#knowTime") , 2012, 4, 24);
+			timeCount($("#boyFriendTime") , 2012, 9, 8);
+		} , 500);
+		setTimeout(function() {
+			var times = $(".time>div");
+			var i = 0;
+			(function() {
+				$(times[i++]).fadeIn(2000).delay(3000).queue(arguments.callee);
+			})();
+		},2000);
+	});
+</script>
+<style>
+	@font-face {
+		font-family: digit;
+		src: url('digital-7.ttf') format("truetype");
+	}
+	html,body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		background-color: #f0f0f0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.container {
+		padding-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 900px;
+	}
+	.footer {
+		position: absolute;
+		height: 20px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		clear:both;
+		text-align: center;
+	}
+	.code {
+		margin-top: 80px;
+		float: left;
+		min-width: 400px;
+	}
+	.time {
+		float: left;
+		margin-top: 80px;
+		font-size: 15pt;
+		width: 500px;
+	}
+	.time div {
+		font-size: 24px;
+		color: #666;
+		margin-bottom: 20px;
+		display: none;
+	}
+	.inf {
+		margin-left: 40px;
+	}
+	#knowTime,#boyFriendTime{
+		margin-top: 20px;
+		margin-left: 40px;
+		font-size: 16px;
+	}
+	.digit {
+		font-family: digit;
+		font-size: 32px;
+	}
+	div.love {
+		font-size: 20px;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+<div class = "code">
+<pre class="hl">Girl <span class="hl kwd">u</span><span class="hl opt">(</span><span class="hl str">&quot;老婆&quot;</span><span class="hl opt">);</span>
+Boy  <span class="hl kwd">i</span><span class="hl opt">(</span><span class="hl str">&quot;傻冒&quot;</span><span class="hl opt">);</span>
+<span class="hl com">/* 4-24 我们第一次聊天 */</span>
+i<span class="hl opt">.</span><span class="hl kwd">Say</span><span class="hl opt">(</span><span class="hl str">&quot;您好&quot;</span><span class="hl opt">);</span>
+u<span class="hl opt">.</span><span class="hl kwd">Laugh</span><span class="hl opt">();</span>
+<span class="hl com">/* </span>
+<span class="hl com"> * 从那时起，跟你聊天就成了我每天的必修功课。</span>
+<span class="hl com"> * 我们认识，喜欢</span>
+<span class="hl com"> */</span>
+i<span class="hl opt">.</span><span class="hl kwd">KeepTalkWith</span><span class="hl opt">(</span>u<span class="hl opt">);</span>
+i<span class="hl opt">.</span><span class="hl kwd">StartFallInLoveWith</span><span class="hl opt">(</span>u<span class="hl opt">);</span>
+<span class="hl com">/* 9-6 我第一次牵起了你的手 */</span>
+i<span class="hl opt">.</span><span class="hl kwd">Hold</span><span class="hl opt">(</span>u<span class="hl opt">.</span>hands<span class="hl opt">);</span>
+<span class="hl com">/* 9-8 我们正式相恋 */</span>
+i<span class="hl opt">.</span><span class="hl kwd">Become</span><span class="hl opt">(</span>u<span class="hl opt">.</span>BoyFridend<span class="hl opt">);</span>
+<span class="hl com">/* 自从那时起，你的笑颜就是我珍贵的宝物 */</span>
+<span class="hl kwa">if</span> <span class="hl opt">(</span>u<span class="hl opt">.</span><span class="hl kwd">Happy</span><span class="hl opt">())</span>
+<span class="hl opt">{</span>
+    i<span class="hl opt">.</span><span class="hl kwd">Happy</span><span class="hl opt">();</span>
+<span class="hl opt">}</span>
+<span class="hl com">/* 每次你悲伤的时候，我总会到你的身旁 */</span>
+<span class="hl kwa">if</span> <span class="hl opt">(</span>u<span class="hl opt">.</span><span class="hl kwd">Sad</span><span class="hl opt">())</span>
+<span class="hl opt">{</span>
+    i<span class="hl opt">.</span><span class="hl kwd">Company</span><span class="hl opt">(</span>u<span class="hl opt">);</span>
+<span class="hl opt">}</span>
+<span class="hl com">/* 我要永远抓住你的手，让你开心，让你快乐 */</span>
+<span class="hl kwb">const bool</span> ever <span class="hl opt">=</span> <span class="hl kwa">true</span><span class="hl opt">;</span>
+<span class="hl kwa">for</span> <span class="hl opt">(;</span>ever<span class="hl opt">;)</span>
+<span class="hl opt">{</span>
+    i<span class="hl opt">.</span><span class="hl kwd">Hold</span><span class="hl opt">(</span>u<span class="hl opt">.</span>hands<span class="hl opt">);</span>
+    i<span class="hl opt">.</span><span class="hl kwd">Make</span><span class="hl opt">(</span>u<span class="hl opt">.</span>Happy<span class="hl opt">);</span>
+<span class="hl opt">}</span>
+i<span class="hl opt">.</span><span class="hl kwd">Love</span><span class="hl opt">(</span>u<span class="hl opt">);</span>
+<span class="hl com">/* 祝我们相识一周年快乐</span>
+<span class="hl com"> *              马思远</span>
+<span class="hl com"> */</span>
+</pre>
+</div>
+	<div class="time">
+		<div>
+			<span>HuanHuan, we have known each other for</span>
+			<p id="knowTime">
+			</p>
+		</div>
+		<div>
+			<span>I have been your boyfriend for</span>
+			<p id="boyFriendTime">
+			</p>
+		</div>
+		<div>
+			<span>And I will live happy with you for</span>
+			<p></p>
+			<img src="infinity.png" alt="Inf" style="height:60px;" class="inf">
+		</div>
+		<div class="love">
+			You're the best thing that's ever happened to me! 
+			<br>
+			I Love You!
+			<p style="text-align:right">-shamao</p>
+		</div>
+	</div>
+	<div class="footer">
+		Copyleft Smy20011 2013-2014 inspired by HackerZhou
+	</div>
+
+	</div> <!-- For container-->
+	
+</body>
+</html>
+<!--HTML generated by highlight 3.8, http://www.andre-simon.de/-->
