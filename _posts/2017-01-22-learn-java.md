@@ -1,8 +1,7 @@
 ---
 layout: post
-published: false
+published: true
 title: Learn Java
-tags: ''
 ---
 # 如何自学Java
 
